@@ -1,0 +1,52 @@
+/* src/index.css */
+
+/* 배경색을 navy로 설정 */
+body {
+    background-color: rgb(35, 37, 72);
+  }
+  
+  /* 영화 컨테이너를 그리드 레이아웃으로 표시합니다. */
+  .app-container {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* 각 영화 아이템에 스타일을 적용합니다. */
+  .movie {
+    width: 130px;
+    margin: 16px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    background-color: rgba(56, 59, 102); /* 연한 navy 배경색 설정 */
+    
+    color :white;
+    border-radius: 5px;
+  }
+  
+  /* 영화 포스터 이미지 스타일 */
+  .movie img {
+    max-width: 100%; /* 이미지 크기 조절 */
+    height: auto; /* 이미지 높이 자동 조절 */
+  }
+  
+  /* 영화 설명 스타일 */
+  .movie-details {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* 영화 제목 스타일 */
+  .movie-details h4{
+    color: white; /* 글꼴 색상 설정 */
+    margin: 0;
+  }
+  .movie-details span{
+    color: white; /* 글꼴 색상 설정 */
+    margin-left: 3px;
+  }
+  
+  
+ 
